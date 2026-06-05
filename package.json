@@ -1,0 +1,21 @@
+{
+  "name": "exhibitor-scraper",
+  "version": "1.0.0",
+  "description": "Playwright-based exhibitor scraper for IMTS directory",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "keywords": [
+    "playwright",
+    "scraper",
+    "exhibitor",
+    "imts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "csv-writer": "^1.6.0"
+  }
+}
